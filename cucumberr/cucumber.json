@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-15T22:22:39.866Z",
+        "line": 3,
+        "name": "Testing the functionality of scenarios in Feature file",
+        "description": "",
+        "id": "general-cucumber-setup---dryrun;testing-the-functionality-of-scenarios-in-feature-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 490982,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "running the first step",
+            "match": {
+              "location": "MySampleStepdefs.running_the_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147773,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "running 2nd step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "MySampleStepdefs.running_nd_step(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30998,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "adding first and second for the third step",
+            "match": {
+              "location": "MySampleStepdefs.adding_first_and_second_for_the_third_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 745195,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the total is sum of first two",
+            "match": {
+              "location": "MySampleStepdefs.verify_the_total_is_sum_of_first_two()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "General cucumber setup - Dryrun",
+    "description": "",
+    "id": "general-cucumber-setup---dryrun",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/cucumbertest.feature",
+    "tags": []
+  }
+]

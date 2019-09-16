@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Login the application using a set of login credentials",
+        "description": "",
+        "id": "general-cucumber-setup---dryrun;login-the-application-using-a-set-of-login-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4859999006,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Launching  \"https://www.heb.com\" in \"Chrome\" browsers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.heb.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 36
+                }
+              ],
+              "location": "MySampleStepdefs.launching_in_browsers(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user logins in the application using prodtesting1@gmail.com,Automation@100",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@design"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Login the application using a set of login credentials",
+        "description": "",
+        "id": "general-cucumber-setup---dryrun;login-the-application-using-a-set-of-login-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1598477576,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Launching  \"https://www.heb.com\" in \"Chrome\" browsers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.heb.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 36
+                }
+              ],
+              "location": "MySampleStepdefs.launching_in_browsers(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user logins in the application using prodtesting2@gmail.com,Automation@100",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@design"
+          }
+        ]
+      }
+    ],
+    "name": "General cucumber setup - Dryrun",
+    "description": "",
+    "id": "general-cucumber-setup---dryrun",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/cucumbertest.feature",
+    "tags": []
+  }
+]

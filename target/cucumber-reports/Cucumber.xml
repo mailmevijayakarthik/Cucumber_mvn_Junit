@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="6.65035">
+<testcase classname="General cucumber setup - Dryrun" name="Login the application using a set of login credentials" time="5.050663">
+<skipped><![CDATA[Given Launching  "https://www.heb.com" in "Chrome" browsers.................passed
+When user logins in the application using prodtesting1@gmail.com,Automation@100.undefined
+]]></skipped>
+</testcase>
+<testcase classname="General cucumber setup - Dryrun" name="Login the application using a set of login credentials 2" time="1.599687">
+<skipped><![CDATA[Given Launching  "https://www.heb.com" in "Chrome" browsers.................passed
+When user logins in the application using prodtesting2@gmail.com,Automation@100.undefined
+]]></skipped>
+</testcase>
+</testsuite>
